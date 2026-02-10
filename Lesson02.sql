@@ -40,6 +40,26 @@ WHERE MANAGER_ID IN (100,102,103);
 
 -- Lesson 02: Restricting and Sorting Data (Part 3_New)
 
+SELECT LAST_NAME,SALARY
+FROM EMPLOYEES
+WHERE LAST_NAME LIKE 'K%';
+
+SELECT LAST_NAME,SALARY
+FROM EMPLOYEES
+WHERE LAST_NAME LIKE '%s';
+
+SELECT LAST_NAME,SALARY
+FROM EMPLOYEES
+WHERE LAST_NAME LIKE '__e%';
+
+-- Lesson 02: Restricting and Sorting Data (Part 3) End
+
+
+
+
+
+
+
 
 
 
