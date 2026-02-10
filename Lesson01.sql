@@ -27,3 +27,45 @@ SELECT EMPLOYEE_ID AS "EMP#",LAST_NAME "Name",SALARY AS "Total salary",
 FROM EMPLOYEES;
 
 
+-- Lesson 01: Retrieving Data Using the SQL SELECT Statement ( Part 3)
+
+SELECT FIRST_NAME || LAST_NAME AS "Full Name"
+FROM EMPLOYEES;
+
+
+SELECT FIRST_NAME || ' ' || LAST_NAME AS "Full Name"
+FROM EMPLOYEES;
+
+SELECT LAST_NAME || ' is a ' || JOB_ID AS "Employee and Job"
+FROM EMPLOYEES;
+
+SELECT DEPARTMENT_NAME || q'[ Department 's manager id: ]' || MANAGER_ID
+FROM DEPARTMENTS;
+
+SELECT LAST_NAME || q'[ 's ]' || JOB_ID AS "Name and Job"
+FROM EMPLOYEES;
+
+SELECT DISTINCT DEPARTMENT_ID
+FROM EMPLOYEES;
+
+-- Lesson 01: Retrieving Data Using the SQL SELECT Statement ( Part 4) End
+
+DESCRIBE DEPARTMENTS;
+
+DESC DEPARTMENTS;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
