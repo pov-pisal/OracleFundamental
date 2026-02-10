@@ -38,6 +38,10 @@ SELECT EMPLOYEE_ID,LAST_NAME,SALARY,MANAGER_ID
 FROM EMPLOYEES
 WHERE MANAGER_ID IN (100,102,103);
 
+-- Lesson 02: Restricting and Sorting Data (Part 3_New)
+
+
+
 
 
 
