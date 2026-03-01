@@ -13,7 +13,7 @@
     <ConnectionString>User Id=ora1;Server=localhost;Unicode=True;Direct=True;Sid=orcl</ConnectionString>
     <Database />
   </Connection>
-  <Views ShowAdditionalViews="False" IsLayoutActiveAttribute="True" MainViewAttribute="Code" MainViewScale="25">
+  <Views ShowAdditionalViews="False" IsLayoutActiveAttribute="True" MainViewAttribute="Code" MainViewScale="50">
     <View Name="Design" Visible="False" />
     <View Name="Code" Active="True" Visible="True">
       <Data />
